@@ -2,6 +2,7 @@
 
 
 pyhton 包 [xlrd官方文档](https://pypi.python.org/pypi/xlrd)，[xlwt官方文档](https://pypi.python.org/pypi/xlwt)，[xlutils官方文档](https://pypi.python.org/pypi/xlutils)
+还有一个xlwt-future(只支持 python 低版本，不推荐使用)，[官网](https://pypi.python.org/pypi/xlwt-future)
 
 基本操作
 
