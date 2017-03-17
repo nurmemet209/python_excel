@@ -90,6 +90,9 @@ class ExcelWriteHelper:
     def write_cell(self, row, col, value):
         self.sheet.write(row, col, str(value))
 
-
+# 写文件
 writer = ExcelWriteHelper("mytest.xls", ['姓名', '学号', '数学成绩'])
 writer.save()
+
+
+

@@ -100,3 +100,11 @@ writer = ExcelWriteHelper("mytest.xls", ['姓名', '学号', '数学成绩'])
 writer.save()
 
 ```
+
+同时读写供一个文件
+```python
+# 读写同一个文件
+reader=ExcelReadHelper("mytest.xls")
+writer = ExcelWriteHelper("mytest.xls", ['姓名', '学号', '数学成绩'],reader.copy())
+writer.save()
+```
