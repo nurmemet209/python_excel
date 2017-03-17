@@ -1,5 +1,8 @@
 # python_excel
 
+
+pyhton 包 [xlrd官方文档](https://pypi.python.org/pypi/xlrd)，[xlwt官方文档](https://pypi.python.org/pypi/xlwt)，[xlutils官方文档](https://pypi.python.org/pypi/xlutils)
+
 基本操作
 
 ```python
@@ -101,7 +104,8 @@ writer.save()
 
 ```
 
-同时读写供一个文件
+同时读写同一个文件
+
 ```python
 # 读写同一个文件
 reader=ExcelReadHelper("mytest.xls")
